@@ -1,0 +1,19 @@
+{
+	"Functional React Component": {
+		"scope": "javascript,typescript",
+		"prefix": "comp",
+		"body": [
+			"import React from 'react';",
+			"",
+			"export default function $1(props) {;",
+			"/t return (",
+			"/t/t <div className='$1'>",
+			"/t/t/t$2",
+			"/t/t </div>",
+			"/t)",
+			"}",
+			"",
+		],
+		"description": "Create React functional component"
+	},
+} 

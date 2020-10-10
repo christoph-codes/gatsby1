@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+
+.gatsby-image-wrapper img {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
+body {
+    
+}
+/* ----------- TYPOGRAPHY */
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+    font-family: 'Sansita Swashed', cursive
+}
+p,li,a {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
