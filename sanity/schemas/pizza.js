@@ -57,11 +57,12 @@ export default {
         },
         prepare: ({ title, media, ...toppings }) => {
             // Filter undefined toppings out
-            const tops = Object.value(toppings).filter(Boolean);
+            console.log('STAY')
+            const tops = Object.values(toppings).filter(Boolean);
             return {
-                title,
                 media,
-                subtitle: Object.values(toppings).join(', ')
+                title,
+                subtitle: tops.join(', ')
             }
         }
     }
