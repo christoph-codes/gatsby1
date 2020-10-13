@@ -38,13 +38,13 @@ export default {
     ],
     preview: {
         select: {
-            name: 'name',
+            title: 'name',
             media: 'image',
         },
-        prepare: ({ name, media }) => {
+        prepare: ({ title, media }) => {
             return {
                 media,
-                name,
+                title,
             }
         }
     }

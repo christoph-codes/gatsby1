@@ -29,5 +29,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/tkcwebdev/gatsby1.git"
-  }
+  },
+  "type": "module"
 }

@@ -1,3 +1,5 @@
+import PriceInput from "../components/PriceInput";
+
 export default {
     // Computer Name
     name: 'pizza',
@@ -34,6 +36,7 @@ export default {
             title: 'Price',
             type: 'number',
             description: 'Price of the pizza in cents',
+            inputComponent: PriceInput,
             validation: Rule => Rule.min(1000)
             // TODO: Add custom input component
         },
@@ -57,7 +60,6 @@ export default {
         },
         prepare: ({ title, media, ...toppings }) => {
             // Filter undefined toppings out
-            console.log('STAY')
             const tops = Object.values(toppings).filter(Boolean);
             return {
                 media,
